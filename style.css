@@ -1,0 +1,49 @@
+#banner {
+    background-image: url(/images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and(max-width: 576px) {
+
+    /* For mobile screens (smaller than 576px) */
+    #banner-image {
+        height: 20vh;
+        /* Adjust height to 20% of the viewport height on small screens */
+    }
+}
+
+@media screen and(min-width: 576px) and (max-width: 768px) {
+
+    /* For medium screens (e.g., tablets) */
+    #banner-image {
+        height: 25vh;
+        /* Adjust height for medium screens */
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* For larger screens */
+    #banner-image {
+        height: 30vh;
+        /* Default height for larger screens */
+    }
+
+    .carousel-item img {
+        max-height: 768px;
+        min-width: auto;
+    }
+
+    #top-wrapper {
+        position: relative;
+    }
+
+    #cartext {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        opacity: 0.75;
+    }
+
+}
