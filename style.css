@@ -1,7 +1,13 @@
 #banner {
-    background-image: url(/images/banner1.jpg);
+    background-image: url(images/banner1.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#footer{
+    position:sticky;
+    bottom: 40px;
+    height:auto;
 }
 
 @media screen and(max-width: 576px) {
