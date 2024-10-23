@@ -4,11 +4,6 @@
     background-position: center;
 }
 
-#footer{
-    position:sticky;
-    bottom: 40px;
-    height:auto;
-}
 
 @media screen and(max-width: 576px) {
 
@@ -26,6 +21,9 @@
         height: 25vh;
         /* Adjust height for medium screens */
     }
+    .card{
+        max-height: 400px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -36,10 +34,6 @@
         /* Default height for larger screens */
     }
 
-    .carousel-item img {
-        max-height: 768px;
-        min-width: auto;
-    }
 
     #top-wrapper {
         position: relative;
